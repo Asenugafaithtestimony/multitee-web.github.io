@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Main styling */
+html,body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.8em;
+
+}
+
+a{
+  color: cyan;
+  text-decoration: none;  
+}
+
+h1, h2, h3, h4 {
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 10px 0;
+}
+/* Utilities */
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+/* Navigation */
+#navstart {
+    background-color: rgb(6, 54, 62);
+    color: cyan;
+    overflow: auto;
+}
+
+/* #navstart a{
+    color: blue;
+} */
+
+#navstart .logo {
+    float: right;
+    padding-top: 20px;
+    font-size: x-large;
+}
+
+#navstart h1 a:hover{
+color: rgb(6, 149, 174)
+}
+
+#navstart ul {
+    float: left;
+    list-style: none;
+}
+
+#navstart ul li{
+    float: left;
+}
+
+
+#navstart ul li a{
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+#navstart ul li a:hover, 
+#navstart ul li a.current{
+    color:  rgb(6, 149, 174);
+    background: rgb(65, 18, 0);
+}
+
+#picture {
+    background: url(..);
+}
