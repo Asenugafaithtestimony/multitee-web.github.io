@@ -1,0 +1,3 @@
+HTMLBodyElement {
+    menubar
+}
